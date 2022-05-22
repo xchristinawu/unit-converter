@@ -1,0 +1,54 @@
+body {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 550px;
+    height: 550px;
+}
+
+#heading {
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+#value {
+    font-size: 100px;
+}
+
+#input-value, #convert-button {
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#conversions {
+    background: #1F2937;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 30px;
+}
+
+#length, #volume, #mass {
+    padding-bottom: 10px;
+}
+
+#meters-feet, #liters-gallons {
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+#kilos-pounds {
+    font-weight: 100;
+}
