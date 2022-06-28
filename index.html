@@ -13,13 +13,13 @@
         <title>Document</title>
     </head>
 
-    <body onload="convertLength(),convertVolume(),convertMass()">
+    <body id="app">
         <div id="container">
             <div id="heading">
                 <div id="header">Metric/Imperial unit conversion</div>
                 <div id="value">0</div>
-                <input type="text" id="input-value" value="enter number" onclick="clearText()">
-                <button id="convert-button" onclick="calculateInput()">Convert</button>
+                <input type="text" id="input-value" value="enter number">
+                <button id="convert-button">Convert</button>
             </div>
             
             <div id="conversions">
